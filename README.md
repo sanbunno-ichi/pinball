@@ -10,7 +10,7 @@ pymunkのexsampleのflipper.pyを動かすとこんな画面
 GIFアニメ  
 ![GIF](pyxel_flipper.gif)
 
-## Web化
+## Web化（FC2ではエラーになって起動できず・・・調査中）
 - [WEB Start](https://sanbunnoichi1962.web.fc2.com/pyxel/pyxel_flipper.html)
 
 ## 更新履歴
