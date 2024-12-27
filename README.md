@@ -1,7 +1,7 @@
 # pyxelとpymunkでpinball
 pymunkのexsampleのflipper.pyをpyxelで動くようにしました。  
 
-pymunkのexsampleのflipper.pyを動かすとこんな画面  
+pymunkのexampleのflipper.pyを動かすとこんな画面  
 ![SS](pymunk_flipper.png)
 
 これをpyxelで動くようにしたものが  
