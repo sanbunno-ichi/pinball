@@ -7,7 +7,7 @@ pymunkのexampleのflipper.pyを動かすとこんな画面
 これをpyxelで動くようにしたものが  
 ![SS](pyxel_flipper.png)
 
-## Web化チャレンジ２（pymunk installでエラーになってる）
+## Web化チャレンジ２（pymunk installで404エラーになってる）
 - [this Web](https://sanbunno-ichi.github.io/pinball/)
 
 ## Web化（FC2ではエラーになって起動できず・・・CORSポリシーに引っかかる,no-corsにしろとか）
