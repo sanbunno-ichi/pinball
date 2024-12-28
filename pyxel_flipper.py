@@ -6,11 +6,9 @@ INIT_POS = SCREEN_WIDTH//2+20, SCREEN_HEIGHT//4
 BALL_RADIUS = 20
 
 class App:
-	#def __init__( self, pymunk, Vec2d, fps=60 ):
 	def __init__( self, pymunk, fps=60 ):
 		self.pymunk = pymunk
 		self.fps = fps
-		#self.Vec2d = Vec2d
 
 		pyxel.init( SCREEN_WIDTH, SCREEN_HEIGHT, fps=fps, title="pyxel flipper" )
 		self.create_world()
@@ -105,13 +103,11 @@ class App:
 		# 左フリッパーの制御
 		if self.getInputLEFT():  # キーを押している間、フリッパーを上げる
 			self.l_flipper_body.apply_impulse_at_local_point(
-				#self.Vec2d.unit() * 8000, (-100, 0)
 				Vec2d.unit() * 8000, (-100, 0)
 			)
 		# 右フリッパーの制御
 		if self.getInputRIGHT():  # キーを押している間、フリッパーを上げる
 			self.r_flipper_body.apply_impulse_at_local_point(
-				#self.Vec2d.unit() * -8000, (-100, 0)
 				Vec2d.unit() * -8000, (-100, 0)
 			)
 
@@ -196,8 +192,6 @@ class App:
 
 if __name__ == "__main__":
 	import pymunk
-#	from pymunk import Vec2d
 
 	FPS = 60
-#	App(pymunk, Vec2d, FPS )
 	App(pymunk, FPS )
