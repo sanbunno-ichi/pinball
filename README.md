@@ -7,9 +7,6 @@ pymunkのexampleのflipper.pyを動かすとこんな画面
 これをpyxelで動くようにしたものが  
 ![SS](pyxel_flipper.png)
 
-GIFアニメ  
-![GIF](pyxel_flipper.gif)
-
 ## Web化チャレンジ２（pymunk installでエラーになってる）
 - [this Web](https://sanbunno-ichi.github.io/pinball/)
 
