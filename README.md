@@ -1,4 +1,9 @@
 # pyxelとpymunkでpinball
+## 注釈
+Pyxel version 2.3.0にしたときはWeb版が動作していましたが、1/24現在動作しなくなりました。  
+なんらかのバージョンアップがなされたせいなのかもしれません。  
+pymunkがロードできないエラーが出ています。  
+　  
 pymunkのexsampleのflipper.pyをpyxelで動くようにしました。  
 
 pymunkのexampleのflipper.pyを動かすとこんな画面  
