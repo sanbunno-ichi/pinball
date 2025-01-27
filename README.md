@@ -2,6 +2,7 @@
 
 ## 概要
 pymunkのexsampleのflipper.pyをpyxelで動くようにしました。  
+Web化ではpymunkは絶対パスが必要です。  
 
 pymunkのexampleのflipper.pyを動かすとこんな画面  
 ![SS](pymunk_flipper.png)
