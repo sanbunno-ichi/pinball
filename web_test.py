@@ -2,7 +2,7 @@ import asyncio
 import micropip
 
 #実行させたいファイルをここに定義
-from pinball import App
+from pinball pyxel_flipper_web App
 
 
 # メイン関数を非同期で実行するための関数
