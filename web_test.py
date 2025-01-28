@@ -2,7 +2,7 @@ import asyncio
 import micropip
 
 #実行させたいファイルをここに定義
-from pyxel_flipper import App
+from pyxel_flipper_web import App
 
 
 # メイン関数を非同期で実行するための関数
