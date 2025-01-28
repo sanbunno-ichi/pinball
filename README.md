@@ -5,6 +5,13 @@ Web版が動かない
 理由が不明  
 他のpymunk_de_シリーズ同様の修正しても動かない  
 
+## アプリ版動作方法
+ローカルコマンドプロンプトから実行  
+pymunkライブラリをインストール  
+--> pip install pymunk  
+サンプルを実行  
+--> pyxel play pyxel_flipper_a.pyxapp  
+
 ## 概要
 pymunkのexsampleのflipper.pyをpyxelで動くようにしました。  
 
