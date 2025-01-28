@@ -1,8 +1,12 @@
 # pyxelとpymunkでpinball
 
+## 注釈
+Web版が動かない  
+理由が不明  
+他のpymunk_de_シリーズ同様の修正しても動かない  
+
 ## 概要
 pymunkのexsampleのflipper.pyをpyxelで動くようにしました。  
-Web化ではpymunkは絶対パスが必要です。(Pyxel 2.3.0以降)  
 
 pymunkのexampleのflipper.pyを動かすとこんな画面  
 ![SS](pymunk_flipper.png)
@@ -14,6 +18,6 @@ pymunkのexampleのflipper.pyを動かすとこんな画面
 - [URL](https://sanbunno-ichi.github.io/pinball/)
 
 ## 更新履歴
-2025.01.28 Web化修正  
+2025.01.28 、、、  
 2024.12.28 pyxel_pinball公開
 
